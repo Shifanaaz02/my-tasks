@@ -1,0 +1,151 @@
+/* *****************Nav bar****************** */  
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+.top{
+    position: relative;
+    text-align: center;
+    min-height: 100px;
+}
+
+.top .heading {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    font-size: 50px;
+    font-family: aftergloww;
+    text-overflow: hidden;
+    z-index: -0.5;
+}
+.nav span a {
+    font-family: 'Josefin Sans', sans-serif;
+}
+.nav{
+    float: right;
+}
+
+.nav span{
+    /* padding-right: 19px; */
+    padding: 52px 29px 10px 0px;    
+}
+
+.nav span a{
+    text-decoration: none;
+}
+
+.pin{
+    padding-left: 18px;
+}
+.pin p{
+    font-size:16px;
+    font-style: normal;
+}
+
+  
+/* Remainig content */
+.row{
+  display: flex;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.col-2{
+  flex-basis: 50%;
+  
+}
+.col-2 .text{
+    padding: 10px;
+    border: 2px solid black;
+    width: 850px;
+}
+.col-2 img{
+  max-width: 80%;
+  padding: 0px 0px;
+  max-height: 430px;
+  /* padding-right: 20px;
+  padding-left: 10px; */
+  margin-left: 150px;
+}
+.small-container{
+  /* margin: auto; */
+  padding: 30px;
+  margin-top: 30px;
+}
+.col-2 h1{
+    font-size: 48px;
+    font-style: normal;
+    font-family: aftergloww;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+.col-2 span{
+    position: relative;
+}
+.col-2 p{
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 10px;
+}
+  
+.fa-download{
+    color: grey;
+    float: right;
+}
+
+.fa-share-alt{
+    color: grey;
+    float: right;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.table{
+    width: 100%;
+    
+}
+th{
+    opacity: 0.5;
+    font-size: 12px;
+    margin-bottom: 0px;
+    line-height: 5px;
+}
+tr{
+    margin-top: 25px;
+
+}
+td{
+    margin-top: 0px;
+    padding-top: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 5px;
+}
+.dot {
+    height: 5px;
+    width: 5px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+}
+.col-2 h4{
+    font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 10px;
+    line-height: 16px;
+}
+.container li{
+    color: grey;
+    font-size: 12px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 0px;
+}
+.container p{
+    font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 16px;
+}
+.note{
+    font-size: 10px;
+    margin-bottom: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+}
