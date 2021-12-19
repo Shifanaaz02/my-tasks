@@ -32,7 +32,7 @@
 .nav span a{
     text-decoration: none;
 }
-
+/* *********************** home>tour>>> ******************* */
 .pin{
     padding-left: 18px;
 }
@@ -70,6 +70,7 @@
   /* margin: auto; */
   padding: 30px;
   margin-top: 30px;
+  padding-bottom: 5px;
 }
 .col-2 h1{
     font-size: 48px;
@@ -77,6 +78,7 @@
     font-family: aftergloww;
     margin-bottom: 0px;
     margin-left: 10px;
+    float: left;
 }
 .col-2 span{
     position: relative;
@@ -88,18 +90,22 @@
     font-family: 'Josefin Sans', sans-serif;
     margin-left: 10px;
 }
-  
+/* ******************* Icons **************** */  
 .fa-download{
     color: grey;
     float: right;
+    font-size: 1.7rem;
+    padding-top: 23px;
 }
 
 .fa-share-alt{
     color: grey;
     float: right;
-    margin-right: 15px;
-    margin-left: 15px;
+    margin:0 3%; 
+    font-size: 1.7rem;
+    padding-top: 23px;
 }
+/* *********************TEXT table **************** */
 .table{
     width: 100%;
     
@@ -128,11 +134,38 @@ td{
     display: inline-block;
 }
 .col-2 h4{
-    font-size: 15px;
+    font-size: 17px;
     font-family: 'Josefin Sans', sans-serif;
     margin-left: 10px;
-    line-height: 16px;
+    line-height: 18px;
 }
+
+/* ****************Additional option ******************* */
+.image {
+    margin:0 1%;
+    float:left;
+    height:60px;
+    width:60px;
+}
+.container2 {
+    padding-top: 0px;
+    width:100%;
+    height:auto;
+    padding:1%;
+    padding-bottom: 30px;
+}
+.text {
+    float:left;
+}
+.text p {
+    width:100%;
+    float:left;
+    font-size: 17px;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 18px;
+}
+
+/* ****************Note ******************* */
 .container li{
     color: grey;
     font-size: 12px;
